@@ -10,7 +10,6 @@ class GujaratLocationSeeder extends Seeder
     {
         $this->call([
             CountryStateDistrictSeeder::class,
-            DistrictSeeder::class,
             SubDistrictSeeder::class,
             VillageSeeder::class,
         ]);
