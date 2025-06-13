@@ -1,0 +1,29 @@
+{
+  "name": "gujarat/gujaratgeography",
+  "description": "District, SubDistrict, Village data for Gujarat",
+  "type": "library",
+  "authors": [
+    {
+      "name": "BharatNextGenTech",
+      "email": "bharatnextgentech@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Gujarat\\LocationData\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Gujarat\\LocationData\\LocationDataServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^10.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
